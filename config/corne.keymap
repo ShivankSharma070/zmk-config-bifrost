@@ -90,7 +90,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp DEL   &kp HOME       &kp PG_DN       &kp PG_UP     &kp END  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP          &kp RIGHT     &trans   &trans
-&mo 5   &trans  &trans  &trans  &trans  &trans    &trans    &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_CUT  &trans   &trans
+&none   &mo 5   &trans  &trans  &trans  &trans    &trans    &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_CUT  &trans   &trans
                         &trans  &trans  &trans    &trans    &trans         &trans
             >;
         };
