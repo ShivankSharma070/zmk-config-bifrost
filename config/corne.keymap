@@ -35,10 +35,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W           &kp E           &kp R        &kp T               &kp Y      &kp U            &kp I            &kp O            &kp P     &none
-&none  &kp A  &hm LEFT_GUI S  &hm LEFT_ALT D  &hm LCTRL F  &kp G               &kp H      &hm RCTRL J      &hm RIGHT_ALT K  &hm RIGHT_GUI L  &kp SEMI  &none
-&none  &kp Z  &kp X           &kp C           &kp V        &kp B               &kp N      &kp M            &kp COMMA        &kp DOT          &kp FSLH  &none
-                              &kp ESC         &mo 2        &mt RSHIFT ENTER    &kp SPACE  &lt 1 BACKSPACE  &kp DELETE
+&none  &kp Q  &kp W           &kp E           &kp R        &kp T             &kp Y      &kp U            &kp I            &kp O            &kp P     &none
+&none  &kp A  &hm LEFT_GUI S  &hm LEFT_ALT D  &hm LCTRL F  &kp G             &kp H      &hm RCTRL J      &hm RIGHT_ALT K  &hm RIGHT_GUI L  &kp SEMI  &none
+&none  &kp Z  &kp X           &kp C           &kp V        &kp B             &kp N      &kp M            &kp COMMA        &kp DOT          &kp FSLH  &none
+                              &kp ESC         &lt 2 ENTER  &kp LEFT_SHIFT    &kp SPACE  &lt 1 BACKSPACE  &kp DELETE
             >;
         };
 
@@ -65,10 +65,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL  &kp AT   &kp HASH          &kp DLLR         &kp PRCNT         &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR      &kp RPAR   &none
-&none  &kp PIPE  &kp DQT  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp UNDERSCORE    &kp PLUS   &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &none
-&none  &kp BSLH  &kp SQT  &kp LEFT_BRACKET  &kp RBKT         &kp MINUS         &kp EQUAL  &trans    &trans     &trans        &trans     &none
-                          &trans            &trans           &trans            &trans     &mo 3     &trans
+&none  &kp EXCL  &kp AT   &kp HASH          &kp DLLR         &kp PRCNT         &kp CARET       &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR   &none
+&none  &kp PIPE  &kp DQT  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp UNDERSCORE    &kp LEFT_ARROW  &kp DOWN  &kp UP     &kp RIGHT  &kp PLUS   &none
+&none  &kp BSLH  &kp SQT  &kp LEFT_BRACKET  &kp RBKT         &kp MINUS         &trans          &trans    &trans     &trans     &kp EQUAL  &none
+                          &trans            &trans           &trans            &trans          &mo 3     &trans
             >;
         };
 
