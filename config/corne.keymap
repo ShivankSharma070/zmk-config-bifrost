@@ -3,16 +3,14 @@
  *
  * SPDX-License-Identifier: MIT
  */
+// Should be before including header for pointing 
+
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
-
-// Should be before including header for pointing 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
-
 #include <dt-bindings/zmk/pointing.h>
 
 &mt { flavor = "tap-preferred"; };
@@ -43,7 +41,7 @@
 
             bindings = <
 &none  &kp Q           &kp W           &kp E               &kp R        &kp T          &kp Y      &kp U            &kp I             &kp O            &kp P               &none
-&none  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_SHIFT D    &hm LCTRL F  &kp G          &kp H      &hm RCTRL J      &hm LEFT_SHIFT K  &hm RIGHT_ALT L  &hm SEMI RIGHT_GUI  &none
+&none  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_SHIFT D    &hm LCTRL F  &kp G          &kp H      &hm RCTRL J      &hm LEFT_SHIFT K  &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &none
 &none  &kp Z           &kp X           &kp C               &kp V        &kp B          &kp N      &kp M            &kp COMMA         &kp DOT          &kp FSLH            &none
                                        &mt LEFT_SHIFT ESC  &mo 2        &lt 4 ENTER    &kp SPACE  &lt 1 BACKSPACE  &kp RIGHT_SHIFT
             >;
