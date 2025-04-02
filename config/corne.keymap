@@ -88,8 +88,8 @@
 
             bindings = <
 &none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR       &kp PRCNT    &kp CARET  &kp AMPS        &kp ASTRK  &kp LPAR        &kp RPAR         &none
-&none  &trans    &trans  &trans    &kp BACKSLASH  &kp TILDE    &kp EQUAL  &kp MINUS       &kp DQT    &kp LEFT_BRACE  &kp RIGHT_BRACE  &none
-&none  &trans    &trans  &trans    &kp PIPE       &kp GRAVE    &kp PLUS   &kp UNDERSCORE  &kp SQT    &kp LBKT        &kp RBKT         &none
+&none  &trans    &trans  &trans    &kp BACKSLASH  &kp TILDE    &kp EQUAL  &kp UNDERSCORE  &kp DQT    &kp LEFT_BRACE  &kp RIGHT_BRACE  &none
+&none  &trans    &trans  &trans    &kp PIPE       &kp GRAVE    &kp PLUS   &kp MINUS       &kp SQT    &kp LBKT        &kp RBKT         &none
                          &trans    &trans         &trans       &trans     &tmux_leader    &trans
             >;
         };
