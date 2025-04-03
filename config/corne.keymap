@@ -46,6 +46,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <17 18>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -57,10 +66,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q           &kp W           &kp E               &kp R        &kp T          &kp Y      &kp U            &kp I             &kp O            &kp P               &none
-&none  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_SHIFT D    &hm LCTRL F  &kp G          &kp H      &hm RCTRL J      &hm LEFT_SHIFT K  &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &none
-&none  &kp Z           &kp X           &kp C               &kp V        &kp B          &kp N      &kp M            &kp COMMA         &kp DOT          &kp FSLH            &none
-                                       &mt LEFT_SHIFT ESC  &mo 2        &lt 4 ENTER    &kp SPACE  &lt 1 BACKSPACE  &kp RIGHT_SHIFT
+&none  &kp Q           &kp W           &kp E             &kp R            &kp T          &kp Y      &kp U           &kp I             &kp O            &kp P               &none
+&none  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LCTRL F      &kp G          &kp H      &hm RCTRL J     &hm LEFT_SHIFT K  &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &none
+&none  &kp Z           &kp X           &kp C             &kp V            &kp B          &kp N      &kp M           &kp COMMA         &kp DOT          &kp FSLH            &none
+                                       &lt 1 ESCAPE      &lt 2 BACKSPACE  &lt 4 ENTER    &kp SPACE  &kp LEFT_SHIFT  &mo 1
             >;
         };
 
