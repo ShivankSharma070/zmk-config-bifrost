@@ -82,9 +82,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N0  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &kp CAPSLOCK  &trans         &trans
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp N6  &kp N7  &kp N8  &kp N9        &kp RIGHT_GUI  &trans
-&none  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans        &trans         &trans
+&none  &kp N0  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans         &none
+&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp N6  &kp N7  &kp N8  &kp N9  &kp RIGHT_GUI  &none
+&none  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans         &none
                        &trans  &mo 3   &kp TAB    &trans  &trans  &trans
             >;
         };
@@ -115,19 +115,19 @@
 
         nav_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP     &kp END       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT    &kp DOWN       &kp UP          &kp RIGHT     &trans  &trans
-&none   &to 5   &trans  &trans  &trans  &trans    &trans      &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_CUT  &trans  &trans
-                        &trans  &trans  &trans    &kp DELETE  &trans         &trans
+&none  &trans  &trans  &trans  &trans  &trans    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP     &kp END       &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans    &kp LEFT    &kp DOWN       &kp UP          &kp RIGHT     &trans  &none
+&none  &to 5   &trans  &trans  &trans  &trans    &trans      &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_CUT  &trans  &none
+                       &trans  &trans  &trans    &kp DELETE  &trans         &trans
             >;
         };
 
         mouse_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans  &trans
-                        &trans  &trans  &to 0     &mkp MB1        &mkp MB2        &mkp MB3
+&none  &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &none
+&none  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans  &none
+                       &trans  &trans  &to 0     &mkp MB1        &mkp MB2        &mkp MB3
             >;
         };
     };
