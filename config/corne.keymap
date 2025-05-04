@@ -91,10 +91,10 @@
 
         fun_layer {
             bindings = <
-&none  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5             &kp F6          &kp F7          &kp F8          &kp F9      &kp F10         &none
-&none  &trans        &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_PREV      &kp C_PP        &kp C_NEXT      &kp F11     &kp F12         &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4       &kp C_AL_MUSIC  &trans          &trans          &bt BT_CLR  &bt BT_CLR_ALL  &none
-                                   &none         &none              &none              &kp C_AL_MAIL   &kp C_AL_FILES  &kp C_AC_PRINT
+&none  &kp F1        &kp F2        &kp F3        &kp F4             &kp F5             &kp F6         &kp F7                &kp F8                &kp F9      &kp F10         &none
+&none  &trans        &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_PREV     &kp C_PP              &kp C_NEXT            &kp F11     &kp F12         &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4       &trans         &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &bt BT_CLR  &bt BT_CLR_ALL  &none
+                                   &none         &none              &none              &kp C_AL_MAIL  &kp C_AL_FILES        &kp C_AC_PRINT
             >;
         };
 
